@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Zero</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
+
+<!-- <link rel="stylesheet" type="text/css" href="homestyle.css"> -->
+</head>
+
+<body><!-- id="bg" background="homejpeg/background.jpg">-->
+
+
+  <nav class="navbar navbar-default">
+
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnavi">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Billable Hours</a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainnavi">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Main Page</a></li>
+          <li><a href="tools/tools.html">Employees</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+  <panel>
+    <h2>Current Employees</h2>
+    <p></p>            
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Employee Name</th>
+          <th>Role</th>
+          <th>Start Date</th>
+          <th>Months Worked</th>
+          <th>Montly Rate</th>
+          <th>Total Billed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>Programmer</td>
+          <td>DD/MM/YYYY</td>
+          <td>24</td>
+          <td>100</td>
+          <td>2400</td>
+        </tr>
+      </tbody>
+    </table>
+  </panel>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Add Employee</legend>
+
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">Employee Name</label>
+              <div class="col-md-10">
+                <input id="ename" type="text" placeholder="This is the End" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">Role</label>
+              <div class="col-md-10">
+                <input id="jtitle" type="text" placeholder="Programmer" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">Start Date</label>
+              <div class="col-md-10">
+                <input id="syear" type="text" placeholder="DDMMYYYY" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="name">Monthly Rate</label>
+              <div class="col-md-10">
+                <input id="mrate" type="text" placeholder="Example. 100" class="form-control">
+              </div>
+            </div>
+
+            <!-- Form actions -->
+           
+              <div class="form-group">
+                <div class="col-md-2 text-left">
+                  <button type="submit" class="btn btn-danger btn-lg" id="submit">Submit</button>
+                </div>
+              </div>
+
+          </fieldset>
+          </form>
+        </div>
+      </div>
+  </div>
+  </div>
+ 
+<!--main body-->
+
+<div class="container">
+  <form>
+
+
+</body>
+</html>
+
